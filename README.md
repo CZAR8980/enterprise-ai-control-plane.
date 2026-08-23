@@ -6,7 +6,7 @@
 
 ## Architectural Blueprint Overview
 
-![Operational Blueprint](./operational-blueprint.png)
+![Operational Blueprint](./Operational%20Blueprint.jpg)
 
 ### Core Control Pillars
 
@@ -21,7 +21,7 @@
 
 ## Regulatory & Compliance Mapping
 
-![Compliance Mapping](./compliance-mapping.png)
+![Compliance Mapping](./Compliance%20Mapping.jpg)
 
 Every node in Phases 1–4 maintains isolated code boundaries to map cleanly against regulatory audit frameworks:
 * **EU AI Act:** Article 9 (Risk Management), Article 12/15 (Record-Keeping & Logging), Article 14 (Human Oversight).
@@ -32,7 +32,7 @@ Every node in Phases 1–4 maintains isolated code boundaries to map cleanly aga
 
 ## Circuit Breakers & Exception Dictionary
 
-![Exception Dictionary](./exception-dictionary.png)
+![Exception Dictionary](./Exception%20Dictionary.jpg)
 
 Upstream failures route directly into four terminal Phase 5 queues using normalized reason codes:
 * **`N_05.1` Technical Exception Queue:** Catches schema drifts, API timeouts, and lock exhaustion.
